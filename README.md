@@ -16,7 +16,7 @@ StudentsPerformanceDashboard.png - Picture of the dashboard.
 
 Welcome to my first project with SQL and Power BI! Here I will be discussing how I went about my analysis, what I found, and how I displayed my findings. 
 
-I had been teaching myself SQL through online courses and doing practice problems using various resources from the internet. After I had learned how to use SQL with Power BI, I decided it was time for me to start doing projects on my own to improve my skills. 
+To give a little background, I had been teaching myself SQL through online courses and doing practice problems using various resources from the internet. After I had learned how to use SQL with Power BI, I decided it was time for me to start doing projects on my own to improve my skills. 
 
 Through kaggle, I download a dataset that showcased students performance for math, reading, and writing. The dataset also included columns for gender, race, education, lunch, and test preparation. So through looking at this data, I was brainstorming questions for myself that I would want to find the answers to by writing queries in SQL. After I felt that I had asked enough questions that I wanted to find the answer to, I got started on writing queries.
 
@@ -24,7 +24,7 @@ When I imported the csv file to MS SQL Server, I had found that the math score c
 
 I then proceeded to find the moving average math score by education by using AVG and PARTITION BY. Then I had found the average and standard deviation for the math score by lunch and test preparation. I also found how many people by gender had scored 70 and above by using COUNT. Finally, I found the grade distribution by math score, the lowest and highest score, the average and standard deviation by gender. 
 
-From these queries,
+From these queries, I had found many insights to the data. I found that from this particular data, the education level does not matter too much in terms of how well you do on the math exam. The highest average was for students with a master's degree with a 69.75 average and the lowest average was students that had only completed high school with a 62.14 average. Oddly enough the students that only had some high school as their education had a higher average at 63.50. Overrall the averages by education were very close to each other, with the biggest gap being students with some college as their education having a 67.13 average against students with some high school at 63.50. Whether the student had the standard lunch or the free/reduced lunch does matter in how well they performed on the test. Students with standard lunch had a 70 average with 13.65 standard deviation and students with free/reduced lunch had a 58 average with a 15.16 standard deviation. These results show that students that come from a wealthier family perform better and so more support is needed for students that have free/reduced lunch. I found that out of the 1,000 test takers, 482 were male and 518 were female. From the average math score, the male average was higher than the female average.  
 
 **Source**
 
