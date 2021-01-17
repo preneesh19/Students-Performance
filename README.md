@@ -12,6 +12,20 @@ Students Performance.pbix - Dashboard to visualize the findings using Power BI.
 
 StudentsPerformanceDashboard.png - Picture of the dashboard.
 
+**The Process**
+
+Welcome to my first project with SQL and Power BI! Here I will be discussing how I went about my analysis, what I found, and how I displayed my findings. 
+
+I had been teaching myself SQL through online courses and doing practice problems using various resources from the internet. After I had learned how to use SQL with Power BI, I decided it was time for me to start doing projects on my own to improve my skills. 
+
+Through kaggle, I download a dataset that showcased students performance for math, reading, and writing. The dataset also included columns for gender, race, education, lunch, and test preparation. So through looking at this data, I was brainstorming questions for myself that I would want to find the answers to by writing queries in SQL. After I felt that I had asked enough questions that I wanted to find the answer to, I got started on writing queries.
+
+When I imported the csv file to MS SQL Server, I had found that the math score column had the wrong data type and so I converted it from nvarchar(50) to int. Then I chose columns that I wanted to focus on for this particular analysis and using the INTO statement, I copied the columns to a new table. I had noticed that in this data there was not a grade column to show what grade each student had gotten and so I added column for grades using the CASE statement. So if a student scored a 50 on the exam the grade would be an F and if a student scored 88, the resulting grade would be B. I also added another column by utlizing the window function ROW_NUMBER() to numbers the rows by math score, highest to lowest. I had used INTO again to put the data in a new table so that I can write queries using this table which is called Students Math Performance.
+
+I then proceeded to find the moving average math score by education by using AVG and PARTITION BY. Then I had found the average and standard deviation for the math score by lunch and test preparation. I also found how many people by gender had scored 70 and above by using COUNT. Finally, I found the grade distribution by math score, the lowest and highest score, the average and standard deviation by gender. 
+
+From these queries,
+
 **Source**
 
 https://www.kaggle.com/spscientist/students-performance-in-exams
