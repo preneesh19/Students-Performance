@@ -28,6 +28,8 @@ From these queries, I had found many insights to the data. I found that from thi
 
 The queries were then imported into Power BI to visualize the data. Using the card, total male and female test takers, average male and female score is displayed at the top. Using pie chart, the grade distribution is shown with the legend included to show how many people got a particular grade. The average by education is also shown through the use of funnel under visualizations in Power BI. Both the average and standard deviation by test preparation and lunch is shown through the use of the clustered bar chart. Finally, the slicer is used so that you can filter the data by gender, education, lunch, and test preparation.  
 
+You have reached the end! That was quite a bit of text and if you had read all of it, I commend you. This was my first project with SQL and Power BI and I have learned a lot from doing this project. My next project will be more ambitious with a larger data set and multiple tables so stay tuned!
+
 **Source**
 
 https://www.kaggle.com/spscientist/students-performance-in-exams
